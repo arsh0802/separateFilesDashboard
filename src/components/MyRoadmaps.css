@@ -1,0 +1,123 @@
+/* MyRoadmaps.css */
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .page-container.mobile {
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .container-box {
+    width: 90%;
+    max-width: 500px;
+    padding: 30px;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.9);
+    text-align: center;
+    z-index: 2;
+  }
+  
+  .container-box.mobile {
+    width: 100%;
+    padding: 20px;
+    margin-top: 0;
+  }
+  
+  .title {
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+    letter-spacing: 4px;
+    animation: fadeIn 1.2s ease-in-out;
+  }
+  
+  .title.mobile {
+    font-size: 24px;
+    letter-spacing: 2px;
+  }
+  
+  .styled-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .label {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 8px;
+  }
+  
+  .label.mobile {
+    font-size: 16px;
+  }
+  
+  .input {
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: rgba(0, 0, 0, 0.1);
+    color: #333333;
+  }
+  
+  .input.mobile {
+    font-size: 16px;
+    padding: 8px;
+  }
+  
+  .button {
+    padding: 16px;
+    background: #ffffff;
+    color: #333333;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background 0.4s ease, box-shadow 0.4s ease, transform 0.3s ease;
+    letter-spacing: 2px;
+    margin-top: 10px;
+  }
+  
+  .button:hover {
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.6);
+    transform: translateY(-5px);
+  }
+  
+  .button:active {
+    transform: scale(0.95);
+  }
+  
+  .button.mobile {
+    font-size: 18px;
+    padding: 12px;
+    letter-spacing: 1px;
+  }
+  
